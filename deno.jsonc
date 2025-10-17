@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run -P --watch index.ts"
+  },
+  "permissions": {
+    "default": {
+      "env": true,
+      "net": true
+    }
+  }
+}
