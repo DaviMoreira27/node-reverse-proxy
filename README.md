@@ -1,4 +1,4 @@
-Deno/Node reverse proxy, I will be only using NodeJS APIS with Deno as my
+Deno/Node reverse proxy, I will be using only NodeJS APIs with Deno as my
 interpreter and runtime.
 
 **Build and Install**
