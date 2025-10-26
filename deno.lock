@@ -1,3 +1,22 @@
 {
-  "version": "5"
+  "version": "5",
+  "specifiers": {
+    "npm:@types/node@^24.2.0": "24.9.1"
+  },
+  "npm": {
+    "@types/node@24.9.1": {
+      "integrity": "sha512-QoiaXANRkSXK6p0Duvt56W208du4P9Uye9hWLWgGMDTEoKPhuenzNcC4vGUmrNkiOKTlIrBoyNQYNpSwfEZXSg==",
+      "dependencies": [
+        "undici-types"
+      ]
+    },
+    "undici-types@7.16.0": {
+      "integrity": "sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:@types/node@^24.2.0"
+    ]
+  }
 }

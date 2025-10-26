@@ -6,8 +6,6 @@ mappedServers.set('url/2', 'http://localhost:3002');
 mappedServers.set('url/3', 'http://localhost:3003');
 mappedServers.set('url/4', 'http://localhost:3004');
 
-
-
 // Application entry point
 http.createServer((req, res) => {
   console.log('Received HTTP Request');
