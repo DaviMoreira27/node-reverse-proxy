@@ -1,11 +1,10 @@
-Deno/Node reverse proxy, I will be using only NodeJS APIs with Deno as my
-interpreter and runtime.
+Node reverse proxy, No packages will be used.
 
 **Build and Install**
 
-1. Install [Deno](https://docs.deno.com/runtime/getting_started/installation/)
-2. Run `deno install`
-3. Run `deno run dev` to run on watch mode
+1. Install [Node](https://nodejs.org/en/download)
+2. Run `npm install`
+3. Run `node --experimental-strip-types --watch index.ts` to run on watch mode
 
 **References:**
 

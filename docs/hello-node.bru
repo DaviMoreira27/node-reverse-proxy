@@ -1,13 +1,17 @@
 meta {
-  name: hello-deno
+  name: hello-node
   type: http
   seq: 1
 }
 
 get {
-  url: http://localhost:3000
+  url: http://localhost:3000/url/1
   body: none
   auth: inherit
+}
+
+headers {
+  host: http://localhost:3001
 }
 
 settings {
